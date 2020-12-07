@@ -1,11 +1,20 @@
 Package: adventofcode19
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Advent of Code 2019
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Tristan", "Mahr", , "tristan.mahr@gmail.com", c("aut", "cre")),
+  person("Eric", "Wastl", role = c("ctb"), 
+  comment = "Created puzzles and descriptions that appear in documentation.")
+  )
+Description: Advent of Code is an annual series of a programming puzzles. 
+  This package contains solutions for the 2019 iteration written in R.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    magrittr,
+    stringr
