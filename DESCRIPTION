@@ -18,3 +18,5 @@ Suggests:
 Imports: 
     magrittr,
     stringr
+URL: https://github.com/tjmahr/adventofcode19
+BugReports: https://github.com/tjmahr/adventofcode19/issues
